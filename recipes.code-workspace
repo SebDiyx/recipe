@@ -1,0 +1,42 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "🍱 Recipes"
+        }
+    ],
+    "extensions": {
+        "recommendations": [
+            "esbenp.prettier-vscode",
+            "dbaeumer.vscode-eslint",
+            "eamodio.gitlens",
+            "ms-vscode.vscode-typescript-next",
+            "aaron-bond.better-comments",
+            "DavidAnson.vscode-markdownlint",
+            "Prisma.prisma",
+            "bradlc.vscode-tailwindcss"
+        ]
+    },
+    "settings": {
+        "search.exclude": {
+            "**/.next": true,
+            "**/node_modules": true
+        },
+        "eslint.codeActionsOnSave.mode": "all",
+        "eslint.run": "onType",
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": false,
+            "source.organizeImports": false
+        },
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[markdown]": {
+            "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        },
+        "[prisma]": {
+            "editor.defaultFormatter": "Prisma.prisma"
+        },
+        "typescript.preferences.importModuleSpecifier": "relative"
+    }
+}
